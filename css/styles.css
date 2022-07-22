@@ -5,8 +5,9 @@
 nav{ 
  position: absolute;
  width: 100%;
+}
 
- nav ul{ list-style: none; }
+ nav ul li { list-style: none; 
  margin-left: 0;
  padding: 0;
  display: flex;
