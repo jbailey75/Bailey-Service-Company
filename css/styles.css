@@ -4,8 +4,13 @@
 }
 nav{ 
  position: absolute;
- font-size: 3rem;
- text-align-last: unset;
+ width: 100%;
+
+ nav ul{ list-style: none; }
+ margin-left: 0;
+ padding: 0;
+ display: flex;
+
 
 }
 h1 {font-size: 6rem;
@@ -33,7 +38,7 @@ section.headpage {
     text-decoration: none;
     border-radius: 0.5rem;
   }
-section.headpage p { font-family: 'Poppins', sans-serif; font-size: 3rem;
+ p { font-family: 'Poppins', sans-serif; font-size: 3rem;
   }
   section.headpage a{ font-size: 3rem;  }  
  
@@ -110,4 +115,38 @@ section.meet-team p{
    Color: red;
     font-family: 'Poppins', sans-serif; font-size: 5rem; 
     }
+nav ul li:first-child {
+ margin-left: 2rem; }
 
+nav ul li:last-child {
+margin-right: auto ;  } 
+
+---Media---
+
+@media screen and max-width:  900px){ 
+ section.headpage  h1 {
+    font-size: 6rem;
+     line height: 3rem
+}
+
+    nav { 
+    font-size: .5rem;
+     line height: .5rem }
+
+     section.headpage { 
+        font-size: 2rem;
+        line height: 2rem } 
+
+    section.contact p{
+     font-size: 1.5rem;
+     line height: 1.5rem } }
+
+ section.contact a { 
+      font-size: 2.5rem;
+     line height: 2.5rem}
+
+section.service a {
+     font-size: 1.5rem;
+     line height: 1.5rem
+
+}
