@@ -1,8 +1,113 @@
-:root { --Bailey Service: #D3D3D3;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100,900&display=swap');
+:root {
+    --Bailey-Service: #D3D3D3;
 }
+nav{ 
+ position: absolute;
+ font-size: 3rem;
+ text-align-last: unset;
+
+}
+h1 {font-size: 6rem;
+
+}
+
 section.headpage {
    width: 100vw;
    height: 100vh;
-   background:var(--Bailey-Service);
+   background: url("../images/motor.jpg" ) var(--Bailey-Service) no-repeat;
+   background: cover;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   Color: red;
+   align-items: center;
 
  }
+ Section.headpage a{
+
+    font-weight: bold;
+    padding: 1.6rem 3rem;
+    background: yellow;
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+section.headpage p { font-family: 'Poppins', sans-serif; font-size: 3rem;
+  }
+  section.headpage a{ font-size: 3rem;  }  
+ 
+section.contact p { 
+
+ text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 6rem;
+   background-color: yellow;
+   
+
+    
+}
+section.contact a {
+   width: 100vw;
+   height: 100vh;
+   background: no-repeat url("../images/mediaelctric.jpg") center;
+   background: cover;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   Color: white;
+   align-items: center;
+   font-family: 'Poppins', sans-serif; 
+   font-size: 5rem; 
+    text-align: center; 
+    font-weight: bold;
+    padding: 1.6rem 3rem;
+    text-decoration: none;
+    border-radius: 0.5rem   
+}
+
+section.service a {
+
+ text-align: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   Color: red;
+   align-items: right;
+    font-family: 'Poppins', sans-serif; font-size: 2rem;
+
+     }
+
+
+section.meet-team {
+ width: 100vw;
+   height: 100vh;
+   background: no-repeat url("../images/aoa.jpg") center ; 
+}
+
+section.meet-team a { text-align: right;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   Color: red;
+   align-items: left;
+    font-family: 'Poppins', sans-serif; font-size: 5rem; 
+    font-weight: bold;
+    padding: 1.6rem 3rem;
+    text-decoration: none;
+    border-radius: 0.5rem 
+
+ }
+section.meet-team p{  
+
+   text-align: top;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   Color: red;
+    font-family: 'Poppins', sans-serif; font-size: 5rem; 
+    }
+
