@@ -1,16 +1,6 @@
-:root {
- Bailey Service Company:/* Frame */
-position: absolute;
-width: 651px;
-height: 586px;
-left: -28px;
-top: 0px;
- }
-section.
+
+section.headpage {
 width: 100vw;
-height:100vh;
- Background url("../ images/mediaelctric.jpeg")
- background-size: cover;
- text-align: center;
-display: flex;
-flex-direction: column;
+height: 586vh;
+
+ }
